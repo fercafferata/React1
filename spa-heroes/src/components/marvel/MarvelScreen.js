@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroList from '../heroes/HeroList';
 
-const Marvel = () => {
+const MarvelScreen = () => {
     return (
         <div>
             <h1>Marvel</h1>
@@ -12,4 +12,4 @@ const Marvel = () => {
     );
 }
  
-export default Marvel;
+export default MarvelScreen;
