@@ -1,4 +1,4 @@
-const getMovie = async (pag) => {
+const getMovie = async () => {
     const URL = `https://api.themoviedb.org/3/movie/popular?api_key=6aba441d5df3e6a2518c33d095dc72c9`;
     try{
         const response = await fetch(URL)
