@@ -17,7 +17,7 @@ const Home = () => {
     }, [])
 
     return ( 
-        <div className="green lighten-3">
+        <div className="row green lighten-3">
             {movies.map(movie => (
                 <Movie
                     key= {movie.id}

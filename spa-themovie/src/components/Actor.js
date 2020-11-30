@@ -5,7 +5,13 @@ const Actor = ({infoActor}) => {
     const {name, character} = infoActor;
     
     return (
-        <h5>{name} ({character})</h5>
+        <div>
+            <div className="col s12 m4 l2">
+                
+                <li>{name} - {character}</li>
+            </div>
+        </div>
+        
     );
 }
  

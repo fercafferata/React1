@@ -10,7 +10,7 @@ const Credits = ({id}) => {
 
         const consultarAPI = async () => {
             const resp = await getCredits(id);
-            saveCredits(resp.cred);
+            saveCredits(resp.cast);
             console.log(saveCredits);
         };
 
@@ -20,7 +20,11 @@ const Credits = ({id}) => {
     return (
         <div>
             <b>Actors: </b>
-            {cred.map(actor => <Actor key={actor.id} infoAutor = {actor}/>)}
+            {cred.map(actor => 
+            <Actor 
+            key = {actor.id} 
+            infoActor = {actor}
+            />)}
         </div>
     );
 }
